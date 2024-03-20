@@ -49,12 +49,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "sku_LexYBa": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -65,8 +59,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "sku_LexYBa"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
