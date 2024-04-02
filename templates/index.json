@@ -123,6 +123,13 @@
     "faq_3rYAHy": {
       "type": "faq",
       "blocks": {
+        "question_YpCq33": {
+          "type": "question",
+          "settings": {
+            "question": "What's your name",
+            "answer": "Bob"
+          }
+        },
         "question_M89yjW": {
           "type": "question",
           "settings": {
@@ -132,6 +139,7 @@
         }
       },
       "block_order": [
+        "question_YpCq33",
         "question_M89yjW"
       ],
       "settings": {
