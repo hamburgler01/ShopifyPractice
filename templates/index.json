@@ -122,6 +122,18 @@
     },
     "faq_3rYAHy": {
       "type": "faq",
+      "blocks": {
+        "question_M89yjW": {
+          "type": "question",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "Items can be returned within 30 days."
+          }
+        }
+      },
+      "block_order": [
+        "question_M89yjW"
+      ],
       "settings": {
         "headline": "Frequently Asked Questions"
       }
