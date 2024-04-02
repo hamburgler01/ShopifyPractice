@@ -119,11 +119,18 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "faq_3rYAHy": {
+      "type": "faq",
+      "settings": {
+        "headline": "Frequently Asked Questions"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "slideshow_kR8Jqh"
+    "slideshow_kR8Jqh",
+    "faq_3rYAHy"
   ]
 }
