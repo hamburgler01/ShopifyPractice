@@ -42,7 +42,7 @@ h2{
   }
 </style>
 
-{% for designer in shop.metaobjects.designer %}
+{% for designer in shop.metaobjects.designer.values %}
   <div class="designer-container">
     <div class="img">
       <img src="{{designer.photo |img_url:'500x' }}" alt="Designer">
