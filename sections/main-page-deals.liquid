@@ -20,10 +20,22 @@
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
-  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    {{ page.content }}
-    XXXXß
-  </div>
+
+  {% if customer %}
+    <h1> Hello {{ customer.first_name }}</h1>
+  
+    <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {{ page.content }}
+    </div>
+
+  {% else %}
+    <div class="rte">
+      <h2>
+        Membership exclusive content.  Please login <a href="/account/login/"> here</a>
+      </h2>
+    </div>
+
+  {% endif %}
 </div>
 
 {% schema %}
